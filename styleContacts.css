@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	background: #000;
+	display: flex;
+}
+	.header__logo {
+		text-transform: uppercase;
+		color: white;
+		font-weight: 800;
+		font-size: 24px;
+		cursor: pointer;
+		margin-top: 56px;
+		margin-left: 5%;
+	}
+	nav {
+		margin-top: 56px;
+		margin-left: 40%;
+	}
+	.logo2 h5 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	}
+
+	
+	
+	.topnav a {
+		color: white;
+		display: inline-block;
+		padding: 0 .5rem
+	
+}
+
+	.topnav a:hover {
+		border-bottom: 3px solid orange;
+	}
+	.topnav .icon {
+		display: none;
+	}
+
+	
+	main .main__welcome {
+		background:#000;
+		text-align: center;
+		/*padding: 40px 0 80px 0;*/
+		padding-top: 30px;
+
+
+	}
+	main .main__welcome h {
+		color: #999999;
+		font-size: 44px;
+		margin-bottom: 80px;
+	}
+	
+	main .main__welcome2 {
+		background:#000;
+		text-align: center;
+		/*padding: 40px 0 80px 0;*/
+		padding-top: 50px;
+
+		color: #999999;
+		font-size: 28px;
+		padding-bottom: 40px;
+		
+	}
+	.babyshop {
+		color: #fcac45;
+
+		/*#00ffff
+		#fcac45
+		*/
+	}
+	.wrapper {
+		background:#00ffff;
+		width: 76%;
+		margin: 0 auto;
+	}
+	
+	h1:after {
+  	content: "";
+  	display: block;
+  	margin: 0 auto;
+  	width: 350px;
+  	padding-top: 10px;
+  	border-bottom: 3px solid orange;
+  }
+
+ 
+
+  .main__contacts {
+  	background: #000;
+  	padding: 100px 0 50px 0;
+  	text-align: center;
+  	color: white;
+  }
+  .main__contacts h1 {
+  	margin-bottom: 30px;
+  	text-align: 50%;
+  }
+  .main__welcom p {
+  	display: inline-block;
+  	text-align: center;
+  	margin-top: 40px;
+
+  	/*text-align: center;*/
+  }
+  .main__contacts img {
+  	height: 350px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+    
+
+  
+
+
+    @media (max-width: 1200px) {
+    	nav {
+    		margin-left: 20%;
+
+    	}
+    }
+    @media (max-width: 1105px) {
+    	nav {
+    		margin-left: 10%;
+
+    	}
+    }
+
+   
+	@media (max-width: 1000px) {
+		.topnav a {
+			font-size: 37px;
+			display: none;
+			margin-bottom: 5px;
+		}
+		.topnav a.icon {
+			padding-right: 60px;
+			float: right;
+			margin-top: -22px;
+			display: block;
+			color: white;
+			font-size: 75px;
+		}
+		nav { 
+			width: 100%;
+		 }
+
+.logo2 h5 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	}
+		/*РАМКА!!!.logo2 h5 {
+	background: #70006cfe;
+
+	text-align: center;
+	border: 3px solid orange;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 80px;
+
+	padding-top: 2%;
+	padding-bottom: 1.5%;
+	
+	}*/
+
+		 .topnav.responsive {
+		 	position: relative;
+		 	top: 110px;
+		 	left: -200px;
+		 	margin-bottom: 100px;
+
+		 }
+		 header .topnav.responsive {
+		 	height: 340px;
+		 }
+
+		  .topnav.responsive a.icon {
+		 	position: absolute;
+		 	top: -30px;
+		 	right: -200px;
+		 }
+		  .topnav.responsive a {
+		 	float: none;
+		 	display: block;
+		 	text-align: left;
+		 	margin-bottom: 15px;
+		 }
+		  
+		 
+		 main .main__welcome p {
+		color: #999999;
+		font-size: 25px;
+		margin-top:60px;
+	}
+		 
+		.mw-100 {
+		max-width: 100%;
+		
+
+	     }
+	     
+	     .main__about {
+		flex-direction: column;
+	     }
+	     .about__right {
+	     	text-align: center;
+	     	margin-left: 0;
+	     }
+	       .about__right li {
+	      	text-align: left;
+
+	     }
+	     .about__right h1 {
+	     	margin-top: 10px;
+	     	font-size: 20px;
+	     }
+	      .catalog__production {
+	      	flex-direction: column;
+       
+		}
+		.main__contacts img {
+    		padding: 40px;
+  	
+  			height: 350px;
+  			margin-right: 8%;
+  			margin-bottom: 700px;
+  		}
+  		.main__contacts {
+  	background: #000;
+  	padding: 100px 0 50px 0;
+  	text-align: center;
+  	color: white;
+  }
+
+  .main__contacts h1 {
+  	margin-bottom: 30px;
+  }
+  
+	  .main__contacts img {
+  	height: 350px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}

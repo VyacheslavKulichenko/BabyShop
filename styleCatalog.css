@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	background: #000;
+	display: flex;
+}
+	.header__logo {
+		text-transform: uppercase;
+		color: white;
+		font-weight: 800;
+		font-size: 24px;
+		cursor: pointer;
+		margin-top: 56px;
+		margin-left: 5%;
+	}
+	nav {
+		margin-top: 56px;
+		margin-left: 40%;
+	}
+	
+	.logo2 h5 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	}
+  	
+		
+	.topnav a {
+		color: white;
+		display: inline-block;
+		padding: 0 .5rem
+	
+}
+
+	.topnav a:hover {
+		border-bottom: 3px solid orange;
+	}
+	.topnav .icon {
+		display: none;
+	}
+	main {
+		background:#00ffff;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	main .main__welcome {
+		background:#000;
+		text-align: center;
+		padding: 40px 0 80px 0;
+
+	}
+	main .main__welcome h {
+		color: #999999;
+		font-size: 44px;
+	}
+	main .main__welcome h1 {
+		color: #999999;
+		font-size: 44px;
+	}
+	main .main__welcome p {
+		color: #999999;
+		font-size: 20px;
+	}
+	.babyshop {
+		color: #fcac45;
+
+		/*#00ffff
+		#fcac45
+		*/
+	}
+	.wrapper {
+		background:#7f7df5fe;
+		width: 76%;
+		margin: 0 auto;
+	}
+	
+	/*************************************Каталог товаров**********************************/
+	.main__catalog {
+		background: #5350fafe;
+		text-align: center;
+		padding: 67px 0 70px 0;
+		color: #000000;
+	}
+	.main__catalog h1 {
+
+		font size: 44px;
+		padding-bottom: 30px;
+		padding: 50px 0 30px 0;
+	}
+	/*.line {
+		width: 300px;
+		height: 3px;
+		background: orange;
+		position: relative;
+		left: 32%;
+		margin-bottom: 85px;	
+	}
+	.foto {
+		background: #d7d7d7;
+		width: 125px;
+		height: 125px;
+		border-radius: 50%;
+		margin: 20px auto;
+
+
+		
+	}*/
+	/********Добавлено для подчеркивания***********/
+	h1:after {
+  	content: "";
+  	display: block;
+  	margin: 0 auto;
+  	width: 225px;
+  	padding-top: 10px;
+  	border-bottom: 3px solid orange;
+  }
+
+ 
+    .catalog__production {
+    display: flex;
+    
+
+    }
+   
+   .clothe {
+   border-radius: 50%;
+   }
+   .catalog__production h4{
+   	text-align: center;
+
+   }
+   .foto {
+   	margin-left: 30px;
+   	margin: 30px;
+
+   }
+   .product__category {
+   	font-size: 20px;
+   	padding: 50px;
+   	margin-bottom: 5px;
+   }
+
+  
+    @media (max-width: 1200px) {
+    	nav {
+    		margin-left: 20%;
+
+    	}
+    }
+    @media (max-width: 1105px) {
+    	nav {
+    		margin-left: 10%;
+
+    	}
+    }
+
+   
+	@media (max-width: 1000px) {
+		.topnav a {
+			font-size: 37px;
+			display: none;
+			margin-bottom: 5px;
+		}
+		.topnav a.icon {
+			padding-right: 60px;
+			float: right;
+			margin-top: -22px;
+			display: block;
+			color: white;
+			font-size: 75px;
+		}
+		nav { 
+			width: 100%;
+		 }
+		.logo2 h5 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	}
+		 .topnav.responsive {
+		 	position: relative;
+		 	top: 110px;
+		 	left: -200px;
+		 	margin-bottom: 100px;
+
+		 }
+		 header .topnav.responsive {
+		 	height: 340px;
+		 }
+
+		  .topnav.responsive a.icon {
+		 	position: absolute;
+		 	top: -30px;
+		 	right: -200px;
+		 }
+		  .topnav.responsive a {
+		 	float: none;
+		 	display: block;
+		 	text-align: left;
+		 	margin-bottom: 15px;
+		 }
+		  main .main__welcome {
+		 	padding: 50px 0 50px 0;
+		 }
+		 
+		 main .main__welcome p {
+		 	font-size: 14px;
+		 }
+		 main .main__welcome h1{
+		 	padding: 25px;
+		 }
+		
+	      .catalog__production {
+	      	flex-direction: column;
+    
+    	}
+
+    	.main__catalog h4 {
+		 	font-size: 27px;
+		 }
+
